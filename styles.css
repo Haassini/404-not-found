@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    padding: 0;
+}
+h1{
+    text-transform: uppercase;
+    font-family: 'Inconsolata', monospace;
+    font-size:24px;
+    margin-left: 77px;
+    margin-top:40px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.image{
+    width: 40%;
+    height: auto;
+}
+.content{
+    width:50%;
+    padding:20px;
+}
+img{
+    width:75%;
+    height: auto;
+    margin-left:8%;
+    margin-top:3%;
+}
+h2{
+    font-family: 'Space Mono', monospace;
+    font-size: 3em;
+    margin-top: 20px;
+    width:65%;
+}
+.content p{
+    font-family: 'Space Mono', monospace;
+    font-size: 1.5em;
+    font-weight: 400;
+    width:60%;
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+    padding: 15px;
+    background-color: #333;
+    border-radius:5px;
+    text-transform: uppercase;
+    font-family: 'Space Mono', monospace;
+}
+footer p{
+    width:100%;
+    text-align: center;
+    margin-top:8%;
+    font-family: 'Space Mono', monospace;
+}
+a:hover{
+    background-color:#666;
+}
+@media (max-width:1370px){
+    img{
+        margin-top: 50px;
+    }
+}
+@media (max-width:1270px){
+    h2{
+        width: 85%;
+    }
+    .content p{
+        width: 85%;
+        font-size:1.4em;
+    }
+    img{
+        margin-top: 50px;
+        width:95%;
+    }
+}
+@media (max-width:865px){
+    img{
+        width: 98%;
+        margin-top: 55px;
+    }
+    h2{
+        width:90%;
+        font-size: 2.7em;
+    }
+    .content p{
+        font-size: 1.1em;
+    }
+}
+@media (max-width:600px){
+    .container{
+        flex-direction: column;
+        margin-top:50px;
+        align-items: center;
+    }
+    img{
+        margin-top:0;
+        width:100%;
+        margin-left: 0;
+    }
+   h2{
+       font-size:1.7em;
+       width:100%;
+       margin-top: 0;
+   }
+   .image{
+       width:80%;
+   }
+   .content{
+       width:80%;
+       text-align: center;
+   }
+   h1{
+       margin-left:30px;
+   }
+   .content p{
+       font-size:1em;
+       text-align: center;
+       margin: 5px auto 40px;
+   }
+}
+@media (max-width:360px){
+    h2{
+        font-size: 1.2em;
+    }
+   .content p{
+        font-size: 0.8em;
+    }
+    h1{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+}
